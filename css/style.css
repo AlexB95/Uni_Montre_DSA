@@ -1,0 +1,199 @@
+html{
+	margin: 0px;
+	padding: 0px;
+}
+
+.logg{
+	border-radius: 20px;
+	border-top-right-radius: 30px;
+	margin:28px auto;
+	width: 380px;
+	background-color: #D9D9D9;
+}
+
+input[type="submit"]{
+	margin-top: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+img.session_unimor{
+    float: right; 
+    margin-right:20px;
+    margin-top: 20px;
+    width: auto;
+    height: 120px;
+}
+
+img.session_logomontrer{
+    float: left; 
+    margin-left:20px;
+    margin-top: 10px;
+    height: 150px;
+}
+
+.header{
+	background-position:  center center;
+	background-image:url("../images/Imagen5.png");
+	height: 265px;
+}
+
+.header_sesion{
+	background-position:  center center;
+    background-color: gainsboro;
+	/*background-image:url("../images/encabezado.JPG");*/
+    min-width: 380px;
+	height: 175px;   
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+#materia_alumno{
+    background-color: white;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}
+.cierra_sesion {
+    background-color: #004000;
+    height: 50px;
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    min-width: 380px;
+}
+
+.formcontrol{
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin: 5px;
+}
+
+#flogg{
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contenedor{
+	padding-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+#contenedor_datos{
+	padding-top: 0;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenedor_materias{
+	padding-top: 0;
+    margin-left: auto;
+    width: 90%;
+    margin-right: auto;
+    min-width: 380px;
+}
+
+.encabezado{
+	width: 100%;
+	border-top-right-radius: 50px;
+    border-top-left-radius: 40px;
+	background-color: #004000;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 0px;
+}
+
+.alerta {
+    text-align: center;
+    margin-top: 5%;
+}
+
+@media (min-width: 650px) {
+    img.session_unimor{
+        margin-top: 20px;
+        height: 120px;
+    }
+}
+@media (min-width: 580px) and (max-width: 650px) {
+    img.session_unimor{
+        margin-top: 25px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 580px) {
+    img.session_unimor{
+        margin-top: 35px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 510px) {
+    img.session_unimor{
+        margin-top: 40px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 462px) and (max-width: 480px) {
+    img.session_unimor{
+        margin-top: 45px;
+        height: 65px;
+    }
+}
+
+
+@media (min-width: 440px) and (max-width: 462px) {
+    img.session_unimor{
+        margin-top: 50px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 440px) {
+    img.session_unimor{
+        margin-top: 60px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 410px) {
+    img.session_unimor{
+        margin-top: 60px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 390px) {
+    img.session_unimor{
+        margin-top: 60px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 380px) {
+    img.session_unimor{
+        margin-top: 60px;
+        height: 35px;
+    }
+}
+
+
+@media (min-width: 340px) and (max-width: 370px) {
+    img.session_unimor{
+        margin-top: 60px;
+        height: 30px;
+    }
+}
